@@ -1,0 +1,14 @@
+# Ignorer les dossiers lourds d'Airflow
+logs/
+plugins/
+
+# Ignorer les fichiers de base de données
+postgres-db-volume/
+pgdata/
+
+# Ignorer les fichiers de configuration secrets
+.env
+
+# Ignorer le cache Python
+__pycache__/
+*.pyc
